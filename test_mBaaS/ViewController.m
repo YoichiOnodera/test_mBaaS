@@ -35,7 +35,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 
-    [NCMB setApplicationKey:@"YOUR_APPLICATION_KEY" clientKey:@"YOUR_CLIENT_KEY"];
+//    [NCMB setApplicationKey:@"YOUR_APPLICATION_KEY" clientKey:@"YOUR_CLIENT_KEY"];
+    [NCMB setApplicationKey:@"0e34ce8f0511d4223784a3dc2e29a016fc0f006f1aaff92e4075966619210aa1" clientKey:@"cc49c24747f43e0fc72da3341dc131e61b46344030f35fcb7dac7ec14d1226c8"];
 
     [self loginStatusDisplay];
 
@@ -43,9 +44,6 @@
     _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width, _scrollView.frame.size.height * 2);
 }
 
-- (void)viewDidLayoutSubviews
-{
-}
 
 - (void)didReceiveMemoryWarning
 {
