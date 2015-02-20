@@ -128,6 +128,7 @@
                         <outlet property="loginStatusLabel" destination="WG7-jD-uPl" id="7SJ-aJ-tqT"/>
                         <outlet property="registerMailAddress1TextField" destination="Rr4-gR-UeC" id="Zr4-My-3Gw"/>
                         <outlet property="registerMailAddress2TextField" destination="mak-HA-bpp" id="qOD-xi-gx1"/>
+                        <outlet property="scrollView" destination="5ZV-eX-HjO" id="9we-Gu-sf3"/>
                         <outlet property="sendButton" destination="GK7-to-pRo" id="fNs-X8-nsN"/>
                         <outlet property="updateButton" destination="mXy-RS-g6v" id="wv3-bA-uZ5"/>
                         <outlet property="updateTextField" destination="Tc9-9c-Dd7" id="1Xn-jy-ymU"/>

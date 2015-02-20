@@ -23,6 +23,8 @@
 
 @property (nonatomic) IBOutlet UITextField  *updateTextField;
 @property (nonatomic) IBOutlet UIButton     *updateButton;
+
+@property (nonatomic) IBOutlet UIScrollView *scrollView;
 @end
 
 
@@ -36,8 +38,14 @@
     [NCMB setApplicationKey:@"YOUR_APPLICATION_KEY" clientKey:@"YOUR_CLIENT_KEY"];
 
     [self loginStatusDisplay];
+
+    NSLog(@"x:%.2f, y:%.2f, x:%.2f, y:%.2f", _scrollView.frame.origin.x, _scrollView.frame.origin.y, _scrollView.frame.size.width, _scrollView.frame.size.height);
+    _scrollView.contentSize = CGSizeMake(_scrollView.frame.size.width, _scrollView.frame.size.height * 2);
 }
 
+- (void)viewDidLayoutSubviews
+{
+}
 
 - (void)didReceiveMemoryWarning
 {
